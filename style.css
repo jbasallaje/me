@@ -28,7 +28,7 @@ p
 	align-items: center;
 }
 
-/* Classes */
+/* Particulars */
 	
 .line 
 {
@@ -50,7 +50,14 @@ p
 
 .button
 {
-	position:fixed; bottom:5px; right:5px; 
+	position:fixed; bottom:100px; left:10px; 
 	width:50px; height:50px; 
-	background-color:grey; opacity:0.5; border-radius:10px; box-shadow:2px 2px 2px grey
+	background-color:grey; opacity:0.5; border-radius:5px;
+	box-shadow:2px 2px 2px grey
+}
+
+.button:hover
+{
+	background-color:dimgrey; opacity:0.5; border-radius:5px;
+	box-shadow:5px 5px 5px grey
 }
