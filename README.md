@@ -3,7 +3,7 @@
 
 
 
-Hi, I'm Jonathan Basallaje.
+Hi, I'm Jonathan Basallaje. This is a website about the things I'm involved which you can also see below:
 
 I'm working on several projects that help people use and consume text better on the internet. These include
 * [Writ.ink](http://www.writ.ink)
