@@ -43,6 +43,12 @@ p
 	align-items: center;
 }
 
+.profileImage
+{
+	margin: 100px 0px 75; border: 45px solid #a79e81;
+	box-shadow:0px 15px 12px grey;
+}
+
 .title
 {
 	margin: 0px 0px 0px;
