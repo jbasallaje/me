@@ -35,7 +35,7 @@ p
 
 /* Particulars */
 
-.card, #title, #rights
+.card, .title, #rights
 {
 	margin: 50px 0px 200px;
 	display: flex; 
@@ -43,7 +43,7 @@ p
 	align-items: center;
 }
 
-#title
+.title
 {
 	margin: 0px 0px 0px;
 	animation-name: fadeIn;
@@ -53,6 +53,19 @@ p
 .line 
 {
 	width:175px; opacity:0.5
+}
+
+#prompt
+{
+	margin: 50px 0px 200px;
+	animation-name: fadeIn;
+	animation-duration: 6s;
+}
+
+.card
+{
+	animation-name: fadeIn;
+	animation-duration: 11s;
 }
 
 .link
