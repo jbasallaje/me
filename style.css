@@ -63,10 +63,10 @@ p
 	animation-delay: 1s;
 }
 
-.card
+.cardAnimate
 {
-	animation-name: fadeInUp;
-	animation-duration: 10s;
+	animation-name: fadeIn;
+	animation-duration: 3s;
 }
 
 .link
