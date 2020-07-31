@@ -76,6 +76,11 @@ p
 	padding-right: 10px;
 }
 
+.gallery
+{
+	margin: 100px;
+}
+
 .liImage 
 {
 	width: 22px;
