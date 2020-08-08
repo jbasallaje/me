@@ -23,6 +23,7 @@ p
 {
 	width: 90%; 
 	max-width: 500px;
+	font-family:'Open Sans', sans-serif;
 }
 
 /* Particulars */
@@ -70,9 +71,7 @@ p
 }
 
 .link
-{
-	text-decoration:underline;
-	text-decoration-style: wavy;
+{ 
 	padding-right: 10px;
 }
 
