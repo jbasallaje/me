@@ -75,10 +75,10 @@ p
 	padding-right: 10px;
 }
 
-.gallery
+/* .gallery
 {
 	margin: 100px;
-}
+} */
 
 .liImage 
 {
@@ -111,4 +111,9 @@ p
 {
 	font-size:0.75em;
 	margin:500px 0px 0px;
+}
+
+.responsive{
+  max-width: 100%;
+  height: auto;
 }
