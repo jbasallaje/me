@@ -114,6 +114,7 @@ p
 }
 
 .responsive{
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+  box-shadow:0px 5px 12px grey;
 }
