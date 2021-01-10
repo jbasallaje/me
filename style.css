@@ -64,7 +64,7 @@ p
 	animation-delay: 1s;
 }
 
-.cardAnimate
+.cardAnimate 
 {
 	animation-name: fadeIn;
 	animation-duration: 3s;
