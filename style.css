@@ -36,10 +36,10 @@ p
 	align-items: center;
 }
 
-.profileImage
+.cardAnimate 
 {
-	margin: 100px 0px 75; border: 45px solid #a79e81;
-	box-shadow:0px 15px 12px grey;
+	animation-name: fadeIn;
+	animation-duration: 3s;
 }
 
 .title
@@ -54,6 +54,11 @@ p
 	width:175px; opacity:0.5
 }
 
+.link
+{ 
+	padding-right: 10px;
+}
+
 #prompt
 {
 	margin: 50px 0px 200px;
@@ -64,35 +69,11 @@ p
 	animation-delay: 1s;
 }
 
-.cardAnimate 
+#rights
 {
-	animation-name: fadeIn;
-	animation-duration: 3s;
+	font-size:0.75em;
+	margin:500px 0px 0px;
 }
-
-.link
-{ 
-	padding-right: 10px;
-}
-
-/* .gallery
-{
-	margin: 100px;
-} */
-
-.liImage 
-{
-	width: 22px;
-    height: 22px;
-    padding: 15px;
-}
-
- .liImage:hover
- {
-	width: 23px;
-    height: 23px;
-    padding: 16px;
- }
 
 .button
 {
@@ -107,15 +88,33 @@ p
 	box-shadow:8px 12px 25px grey;
 }
 
-#rights
+.profileImage
 {
-	font-size:0.75em;
-	margin:500px 0px 0px;
+	margin: 100px 0px 75; border: 45px solid #a79e81;
+	box-shadow:0px 15px 12px grey;
 }
 
 .responsive{
-  max-width: 80%;
-  height: auto;
-  margin-top: 10px;
-  box-shadow:0px 5px 12px grey;
+	max-width: 80%;
+	height: auto;
+	margin-top: 10px;
+	box-shadow:0px 5px 12px grey;
+  }
+
+.hero{
+	height: 500px;
+}  
+
+.liImage 
+{
+	width: 22px;
+    height: 22px;
+    padding: 15px;
 }
+
+ .liImage:hover
+ {
+	width: 23px;
+    height: 23px;
+    padding: 16px;
+ }
