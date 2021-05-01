@@ -17,7 +17,8 @@ h2
 	font-weight: normal;
 	font-size: xx-large;
 	font-family:'Crete Round', serif;
-	margin: 20px 0px 30px
+	margin: 100px 0px 30px;
+	padding-top: 100px;
 }
 
 p
@@ -29,7 +30,7 @@ p
 
 /* Particulars */
 
-.card, .title, #rights
+.card, #rights
 {
 	margin: 50px 0px 100px;
 	display: flex; 
@@ -45,9 +46,9 @@ p
 
 .title
 {
-	margin: 0px 0px 0px;
-	animation-name: fadeIn;
-	animation-duration: 3s;
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
 }
 
 .line 
@@ -89,9 +90,28 @@ p
 	box-shadow:8px 12px 25px grey;
 }
 
+.contactButton
+{
+	background-color:rgba(231, 231, 231, 0.507); /* opacity:0.5; */ border-radius:90px;
+	float: right;
+}
+
+.contactButton:nth-of-type(2) 
+{
+	margin: 0 50px 0 50px;
+}
+
+.contactButtonContainer
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .profileImage
 {
-	margin: 75px 0px 75;
+	width: 90vw;
+	max-width: 400px;
 }
 
 .responsive{
@@ -102,7 +122,9 @@ p
   }
 
 .cover{
-	height: 500px;
+	margin-top: 15px;
+	max-height: 500px;
+	max-width: 100%;
 }  
 
 .hero{
@@ -116,12 +138,25 @@ p
     padding: 15px;
 }
 
- .liImage:hover
- {
+.liImage:hover
+{
 	width: 23px;
     height: 23px;
     padding: 16px;
- }
+}
+
+.contactImage
+{
+	width: 28px;
+    height: 28px;
+    padding: 15px;
+}
+
+.downArrowImage
+{
+	margin-top: 40px;
+	width: 50px;
+}
 
  @media (min-width: 600px){
 	.hero{
