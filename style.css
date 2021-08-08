@@ -28,6 +28,18 @@ p
 	font-family:'Open Sans', sans-serif;
 }
 
+.squareButton{
+	height: 55px;
+	width: 135px;
+	font-family:'Open Sans', sans-serif;
+	font-size: 1em;
+	text-decoration: rgb(53, 53, 53);
+	background-color: rgb(255, 255, 255);
+	border: 3px solid #505050;
+	box-shadow:5px 10px 20px grey;
+	cursor:pointer;
+}
+
 /* Particulars */
 
 .card, #rights
