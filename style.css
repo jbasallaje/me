@@ -28,18 +28,6 @@ p
 	font-family:'Open Sans', sans-serif;
 }
 
-.squareButton{
-	height: 55px;
-	width: 135px;
-	font-family:'Open Sans', sans-serif;
-	font-size: 1em;
-	text-decoration: rgb(53, 53, 53);
-	background-color: rgb(255, 255, 255);
-	border: 3px solid #505050;
-	box-shadow:5px 10px 20px grey;
-	cursor:pointer;
-}
-
 /* Particulars */
 
 .card, #rights
@@ -92,19 +80,22 @@ p
 .button
 {
 	position:fixed; bottom:100px; right:5%;  
-	background-color:rgb(250, 250, 250); /* opacity:0.5; */ border-radius:90px;
+	background-color:rgb(250, 250, 250); /* opacity:0.5; */ 
+	border-radius:90px;
 	box-shadow:5px 10px 20px grey;
 }
 
 .button:hover 
 {
-	background-color:rgb(250, 250, 250); /* opacity:0.5; */ border-radius:90px;
+	background-color:rgb(250, 250, 250); /* opacity:0.5; */ 
+	border-radius:90px;
 	box-shadow:8px 12px 25px grey;
 }
 
 .contactButton
 {
-	background-color:rgba(231, 231, 231, 0.507); /* opacity:0.5; */ border-radius:90px;
+	background-color:rgba(231, 231, 231, 0.507); /* opacity:0.5; */ 
+	border-radius:90px;
 	float: right;
 }
 
@@ -118,6 +109,18 @@ p
 	display:flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.squareButton{
+	height: 55px;
+	width: 135px;
+	font-family:'Open Sans', sans-serif;
+	font-size: 1em;
+	text-decoration: rgb(53, 53, 53);
+	background-color: rgb(255, 255, 255);
+	border: 3px solid #3f3f3f;
+	border-radius:5px;
+	cursor:pointer;
 }
 
 .profileImage
@@ -167,7 +170,7 @@ p
 
 .downArrowImage
 {
-	margin-top: 40px;
+	margin-top: 100px;
 	width: 50px;
 }
 
