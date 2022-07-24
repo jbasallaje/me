@@ -56,11 +56,6 @@ p
 	width:175px; opacity:0.5
 }
 
-.link
-{ 
-	padding-right: 10px;
-}
-
 #prompt
 {
 	margin: 50px 0px 100px;
@@ -73,8 +68,7 @@ p
 
 #rights
 {
-	font-size:0.75em;
-	margin:300px 0px 0px;
+	margin:200px 0px 60px;
 }
 
 .button
