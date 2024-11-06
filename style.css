@@ -13,6 +13,12 @@ h1
 	font-family:'Roboto Serif', serif;
 }
 
+@media only screen and (max-width: 600px){
+	h1{
+		font-size: 72px;
+	}
+}
+
 h2
 {
 	font-weight: bold;
@@ -165,8 +171,9 @@ p, ul
 	animation-duration: 1s;
 }
 
- @media (min-width: 600px){
+@media (min-width: 600px){
 	.hero{
 		max-width: 50%;
 	}
+
  }
