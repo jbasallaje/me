@@ -19,13 +19,12 @@
 
 <body>
 	<!-- Title -->
-	<div class="title cardAnimate">
-		<!-- <img style="margin-top: 54px;" src="images/IJNAlogo.svg" alt="IJNA logo: a window with a star"> -->
+	<div class="section fadeIn">
 		<dotlottie-player src="https://lottie.host/58353d70-9ce6-4a69-b212-e7ad87401888/rxB2pz7kpd.json" background="transparent" speed="0.5" style="width: 150px; height: 150px; margin-top: 54px;" direction="1" playMode="normal" autoplay></dotlottie-player>
 		<h1>Jonathan Basallaje</h1>
 		<p style="margin-bottom: 52px;"><b>UX designer // Also designing as IJNA design</b></p>
 	</div>
-	<div class="cardAnimate contactButtonContainer">
+	<div class="fadeIn centeredContainer">
 		<div>
 			<!-- Resume -->
 			<div>
@@ -38,62 +37,70 @@
 		<img class="downArrowImage" src="images/downArrow.png" alt="Down Arrow"></a>
 
 	<!-- Design process -->
-	<div class="cardAnimate card">
+	<div class="fadeIn">
 		<h2 id="0">I. Design principles</h2>
 		<hr class="line">
-		<a href="0.html"><img class="cover" src="images/Process_hero.png" alt="Mock-up of UX Process"></a>
-		<p style="margin-bottom: 32px;">
+		<img class="cover" src="images/Process_hero.png" alt="Mock-up of UX Process">
+		<p class="readText">
 			My design process is grounded in <b>empathy</b> for the user, reliance on <b>research</b>, and validation by <b>testing</b>.
 		</p>
-		<!-- <ul>
-			<li>Empathy for the user</li>
-			<li>Reliance on research</li>
-			<li>Validation by testing</li>
-		  </ul> -->
-		<a href="0.html"><button class="squareButton">See work experience  <i class="fa fa-arrow-right"></i></button></i></a>
+		<a href="uxProcess.html"><button class="squareButton">See work experience  <i class="fa fa-arrow-right"></i></button></i></a>
 	</div>
 
 	<!-- Projects Section Header -->
-	<div class="cardAnimate card" style="margin-bottom: 10px;">
+	<div class="fadeIn" style="margin-bottom: 10px;">
 		<h2>II. Projects</h2>
 	</div>
 
 	<hr class="line">
 
-	<!-- Project #1 -->
-	<div class="cardAnimate card">
-		<h2 id="1">Writ.ink</h2>
-		<p>A content platform for text.</p>
-		<a href="1.html"><img class="cover" src="images/Writ_hero.png" alt="Mock-up of Writ.ink"></a>
-		<a href="1.html"><button class="squareButton">See more</button></a>
-	</div>
+	<div style="margin: 0px 24px 0px 24px;">
+		<!-- Project #1 -->
+		<div style="padding-top: 50px;" id="1">
+			<div class="fadeIn card">
+				<img class="cardCover" src="images/hagah_hero.png" alt="Device showing homepage of hagah.io">
+				<h2 class="cardHeader">hagah.io</h2>
+				<p class="cardText">An online reader's Bible</p>
+				<a href="https://www.hagah.io/" target="_blank"><button class="primaryCardButton">Visit site  <i class="fa fa-external-link" aria-hidden="true"></i></button></a>
+			</div>
+		</div>
+		
+		<!-- Project #2 -->
+		<div style="padding-top: 50px;" id="2">
+			<div class="fadeIn card">
+				<img class="cardCover" src="images/tdraft_hero.png" alt="Device showing homepage of tdraft.io">
+				<h2 class="cardHeader">tdraft.io</h2>
+				<p class="cardText">A mobile-optimized text editor in the browser.</p>
+				<a href="https://www.tdraft.io/" target="_blank"><button class="primaryCardButton">Visit site  <i class="fa fa-external-link" aria-hidden="true"></i></button></a>
+				<a href="tdraft.html"><button class="secondaryCardButton">See details</button></a>
+			</div>
+		</div>
 
-	<!-- Project #2 -->
-	<div class="cardAnimate card">
-		<h2 id="2">tdraft.io</h2>
-		<p>A mobile optimized text editor in the browser.</p>
-		<a href="2.html"><img class="cover" src="images/tdraft_hero.png" alt="Mock-up of tdraft.io"></a>
-		<a href="2.html"><button class="squareButton">See more</button></a>
-	</div>
+		<!-- Project #3 -->
+		<div style="padding-top: 50px;" id="3">
+			<div class="fadeIn card">
+				<img class="cardCover" src="images/Writ_hero.png" alt="Device showing homepage of Writ.ink">
+				<h2 class="cardHeader">Writ.ink</h2>
+				<p class="cardText">A content platform for text.</p>
+				<a href="writ.html"><button class="primaryCardButton">See details</button></a>
+			</div>
+		</div>
+		
+		<div class="fadeIn" id="4">
+			<a href="otherProjects.html"><button class="secondarySquareButton">See all projects  <i class="fa fa-arrow-right"></i></button></i></a>
+		</div>
 
-	<!-- Other projects -->
-	<div class="cardAnimate card">
-		<h2 id="otherProjects">Other projects</h2>
-		<p style="margin-top: 25px;">
-			See a gallery of my other projects.
-		</p>
-		<a href="3.html"><img class="responsive" src="images/galleryCover.png" alt="Collage of project artifacts"></a>
-		<a href="3.html"><button class="squareButton">View Gallery</button></a>
 	</div>
+	
 
-	<!-- Contact Section -->
-	<div class="card cardAnimate">
+	<!-- Contact -->
+	<div class="section fadeIn">
 		<h2>III. Contact</h2>
 		<hr class="line">
 		<p style="margin-bottom: 55px">
 			Get in touch using the links below!
 		</p>
-		<div class="cardAnimate contactButtonContainer">
+		<div class="fadeIn centeredContainer">
 			<div>
 				<!-- Github -->
 				<div class="contactButton">
@@ -115,10 +122,12 @@
 	</div>
 
 	<!-- Back to top button -->
-	<div class="card cardAnimate" style="margin-top: 200px;">
+	<div class="fadeIn" style="margin-top: 200px; margin-bottom: 100px;">
 		<a href="#top"><button class="squareButton"><i class="fa fa-arrow-up"></i>  Back to top</button></a>
 	</div>
 
+
+	<!-- Javascript that I got from the good folks at OpenAI -->
 	<script src="./showOnScroll.js"></script>
 	<script>
 		document.querySelector('.downArrowImage').addEventListener('click', function(e) {
@@ -128,7 +137,7 @@
 			});
 		});
 	</script>
-	<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script> 
+	<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 	
 </body>
 
